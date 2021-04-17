@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Magicbricks Test Automation suite ]">
+  <listeners>
+    <listener class-name="testcase.analyzer.RetryListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="MMB Test cases(failed)">
+    <classes>
+      <class name="com.mmb.qa.testcases.SignUpPageTest">
+        <methods>
+          <include name="verifyTheLogOutLableTest"/>
+          <include name="tearDown"/>
+          <include name="clickOnTheSignUpLinkTest"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.mmb.qa.testcases.SignUpPageTest -->
+    </classes>
+  </test> <!-- MMB Test cases(failed) -->
+</suite> <!-- Failed suite [Magicbricks Test Automation suite ] -->
